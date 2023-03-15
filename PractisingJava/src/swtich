@@ -1,0 +1,27 @@
+public class secminchllange {
+    public static void main(String[] args) {
+        int switchvalue=6;
+
+        switch (switchvalue){
+            case 1:
+                System.out.println("val is 1");
+                break;
+            case 2:
+                System.out.println("2");
+                break;
+            case 3: case 4: case 5: case 6:
+                System.out.println(" was a 3 4 5 6 ");
+                System.out.println("yes it was "+ switchvalue);
+                break;
+            default:
+                System.out.println("was not 1 2 3 4 5 6 ");
+                break;
+
+
+
+        }
+    }
+}
+
+
+
