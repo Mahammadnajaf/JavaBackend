@@ -1,0 +1,15 @@
+public class secminchllange {
+    public static void main(String[] args) {
+        for(int counter=2;counter<=5;counter++){
+            System.out.println("10000 at "+counter +"% int rate would be =  "+calcint(10000.0,counter));
+
+        }
+
+    }
+    public static double calcint(double amount,double intRate){
+        return (amount*(intRate/100));
+    }
+}
+
+
+
