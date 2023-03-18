@@ -1,5 +1,6 @@
 package com.tamco.hibernate;
 //comment
+//comment12
 
 import org.hibernate.annotations.GenericGenerator;
 
